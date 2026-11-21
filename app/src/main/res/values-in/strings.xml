@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">habNoir Clean</string>
+    <string name="accessibility_service_label">Asisten Pembersih Cache habNoir Clean</string>
+    <string name="accessibility_service_description">Membantu menekan tombol Hapus Cache secara otomatis dan bertahap di halaman Info Aplikasi. Tidak dapat melakukan gestur bebas maupun menghapus data pengguna aplikasi.</string>
+
+    <string name="nav_space">Ruang</string>
+    <string name="nav_apps">Aplikasi</string>
+    <string name="nav_trash">Sampah</string>
+
+    <string name="cd_open_settings">Buka setelan dan kesehatan perangkat</string>
+    <string name="cd_back">Kembali</string>
+    <string name="cd_close">Tutup</string>
+    <string name="cd_exclude_app">Kecualikan %1$s</string>
+    <string name="cd_include_app">Masukkan %1$s ke pembersihan</string>
+
+    <string name="hero_subtitle_ready">Cache dari %1$d aplikasi dan sampah galeri 30 hari siap dibersihkan.</string>
+    <string name="hero_subtitle_empty">Tidak ada cache di atas %1$s. Penyimpanan dalam kondisi lega.</string>
+    <string name="hero_subtitle_needs_usage">Aktifkan Akses Penggunaan agar aplikasi dapat menghitung ukuran cache di HP kamu.</string>
+
+    <string name="strata_label_private">Pribadi %1$s</string>
+    <string name="strata_label_cache">Cache %1$s</string>
+    <string name="strata_label_trash">Sampah %1$s</string>
+
+    <string name="cta_clean_staged">Bersihkan cache bertahap</string>
+    <string name="cta_cleaning_active">Sedang membersihkan</string>
+    <string name="cta_rescan">Pindai ulang cache</string>
+    <string name="cta_grant_usage">Aktifkan Akses Penggunaan</string>
+    <string name="safety_reassurance">Foto, chat, dan akun login tidak tersentuh.</string>
+    <string name="batch_meta_format">%1$d per jeda</string>
+
+    <string name="home_list_title">Cache terbesar saat ini</string>
+    <string name="home_see_all_apps">Lihat semua aplikasi (%1$d)</string>
+    <string name="home_empty_list">Semua cache aplikasi di atas batas minimum sudah bersih.</string>
+    <string name="home_scanning">Sedang mengecek ukuran cache aplikasi</string>
+
+    <string name="banner_a17_title">Perlindungan Lanjutan Android 17 aktif</string>
+    <string name="banner_a17_body">Sistem membatasi layanan aksesibilitas. Gunakan Antrean manual di Setelan agar tetap bisa membersihkan satu per satu.</string>
+    <string name="banner_a17_action">Buka Setelan mode pembersihan</string>
+
+    <string name="banner_setup_title">Selesaikan satu izin lagi</string>
+    <string name="banner_setup_body">Aktifkan Asisten Aksesibilitas atau pilih Antrean manual di Setelan untuk mulai membersihkan.</string>
+    <string name="banner_setup_action">Atur izin</string>
+
+    <string name="apps_title">Aplikasi</string>
+    <string name="apps_subtitle">Ketuk ikon gembok untuk mengecualikan aplikasi dari pembersihan.</string>
+    <string name="apps_search_hint">Cari nama aplikasi</string>
+    <string name="filter_all">Semua</string>
+    <string name="filter_large">Di atas 150 MB</string>
+    <string name="filter_locked">Dikecualikan</string>
+    <string name="apps_empty_search">Tidak ada aplikasi yang cocok dengan pencarian tersebut.</string>
+    <string name="apps_clear_search">Hapus kata kunci</string>
+    <string name="app_excluded_tag">Dikecualikan</string>
+
+    <string name="trash_title">Folder sampah</string>
+    <string name="trash_subtitle">Foto dan video yang baru dihapus biasanya masih tersimpan 30 hari sebelum hilang permanen.</string>
+    <string name="trash_layer1_title">1. Sampah galeri 30 hari</string>
+    <string name="trash_layer1_desc">Menghapus permanen berkas sampah MediaStore secara bertahap per 150 berkas per konfirmasi sistem.</string>
+    <string name="trash_layer1_status">%1$d berkas (%2$s)</string>
+    <string name="trash_layer1_empty">Kosong</string>
+    <string name="trash_layer1_btn">Kosongkan permanen (%1$s)</string>
+    <string name="trash_layer1_btn_done">Sampah MediaStore sudah kosong</string>
+
+    <string name="trash_layer2_title">2. Folder sampah tersembunyi</string>
+    <string name="trash_layer2_tag">Opsional FOSS</string>
+    <string name="trash_layer2_desc">Memeriksa direktori sampah terverifikasi (%1$s) tanpa menyentuh foto kamera atau chat WhatsApp aktif.</string>
+    <string name="trash_layer2_grant_btn">Izinkan akses folder sampah</string>
+    <string name="trash_layer2_scan_btn">Hapus %1$d berkas sampah tersembunyi (%2$s)</string>
+    <string name="trash_layer2_none">Tidak ditemukan sampah di folder tersembunyi.</string>
+
+    <string name="trash_layer3_title">3. Galeri bawaan HP</string>
+    <string name="trash_layer3_desc_default">Buka menu Baru dihapus di Galeri bawaan HP untuk mengosongkan sampah terenkripsi pabrik.</string>
+
+    <string name="settings_title">Setelan dan merek HP</string>
+    <string name="settings_section_mode">Cara pembersihan bertahap</string>
+    <string name="mode_accessibility_title">Aksesibilitas bertahap</string>
+    <string name="mode_accessibility_desc">Otomatis 1 klik tanpa komputer atau root</string>
+    <string name="mode_guided_title">Antrean manual</string>
+    <string name="mode_guided_desc">Membuka halaman penyimpanan aplikasi satu per satu tanpa izin Aksesibilitas</string>
+
+    <string name="settings_section_threshold">Batas minimum dan pengingat</string>
+    <string name="threshold_1mb">1 MB</string>
+    <string name="threshold_5mb">5 MB</string>
+    <string name="threshold_10mb">10 MB</string>
+    <string name="settings_batch_policy_info">Kecepatan HP ini: %1$d aplikasi per batch, jeda %2$s</string>
+    <string name="settings_reminder_title">Pengingat ruang hemat baterai</string>
+    <string name="settings_reminder_desc">Cek diam-diam saat baterai sehat dan beri tahu bila tumpukan cache besar.</string>
+
+    <string name="settings_section_oem">Kesiapan merek HP</string>
+    <string name="settings_target_button">Tombol target: %1$s</string>
+    <string name="check_usage_access">Izin Akses Penggunaan</string>
+    <string name="check_accessibility">Asisten Aksesibilitas</string>
+    <string name="check_battery_oem">Pengaturan baterai dan mulai otomatis</string>
+    <string name="status_ready">Siap</string>
+    <string name="status_needed">Perlu diatur</string>
+    <string name="action_fix">Atur</string>
+    <string name="action_open_guide">Buka panduan awal</string>
+
+    <string name="settings_privacy_title">Berjalan penuh secara offline</string>
+    <string name="settings_privacy_desc">Nol izin internet, lisensi terbuka GPL-3.0-or-later</string>
+    <string name="settings_total_freed">Total ruang sudah dilegakan: %1$s</string>
+
+    <string name="sheet_phase_guided">Ketuk Hapus cache di Setelan lalu tekan Kembali untuk lanjut</string>
+    <string name="btn_pause">Jeda</string>
+    <string name="btn_resume">Lanjutkan</string>
+    <string name="btn_stop">Hentikan</string>
+
+    <string name="wiz_step_counter">Langkah %1$d dari 3</string>
+    <string name="wiz_btn_back">Kembali</string>
+    <string name="wiz_btn_next">Lanjut</string>
+    <string name="wiz_btn_finish">Mulai gunakan</string>
+    <string name="wiz1_title">Legakan ruang tanpa rasa cemas</string>
+    <string name="wiz1_body">habNoir Clean bekerja penuh secara offline tanpa iklan dan tanpa izin internet.</string>
+    <string name="wiz1_point1">Foto, video, chat WhatsApp, dan akun login tidak tersentuh.</string>
+    <string name="wiz1_point2">Cache dibersihkan bertahap per batch agar ponsel tidak freeze atau panas.</string>
+    <string name="wiz2_title">Izin membaca ukuran cache</string>
+    <string name="wiz2_body">Android mewajibkan izin Akses Penggunaan agar aplikasi dapat menghitung total cache tiap aplikasi.</string>
+    <string name="wiz2_btn">Buka setelan Akses Penggunaan</string>
+    <string name="wiz2_notif_title">Izin notifikasi progres</string>
+    <string name="wiz2_notif_body">Menampilkan status pembersihan bertahap dan pengingat ruang di panel notifikasi.</string>
+    <string name="wiz2_notif_btn">Izinkan notifikasi</string>
+    <string name="wiz3_title">Penyesuaian %1$s</string>
+    <string name="wiz3_restricted_title">Membuka kunci Setelan Terbatas (Android 13 sampai 17)</string>
+    <string name="wiz3_restricted_body">Jika tombol Aksesibilitas terkunci saat memasang APK dari GitHub atau F-Droid: tutup popup, buka Info Aplikasi, ketuk ikon titik tiga di kanan atas, lalu pilih Izinkan setelan terbatas.</string>
+    <string name="wiz3_btn_app_info">Buka Info Aplikasi</string>
+    <string name="wiz3_btn_accessibility">Buka setelan Aksesibilitas</string>
+
+    <string name="snack_whitelisted">%1$s dikecualikan dari pembersihan</string>
+    <string name="snack_unwhitelisted">%1$s dimasukkan ke daftar pembersihan</string>
+    <string name="snack_cleaned_summary">%1$s ruang berhasil dilegakan dari %2$d aplikasi.</string>
+    <string name="snack_stopped_summary">Pembersihan dihentikan. %1$s ruang sudah dilegakan.</string>
+    <string name="snack_trash_cleared">%1$s sampah berhasil dihapus permanen.</string>
+    <string name="snack_gallery_unavailable">Aplikasi galeri bawaan tidak ditemukan di perangkat ini.</string>
+    <string name="snack_settings_fallback">Halaman Detail Aplikasi dibuka untuk mengatur baterai atau izin.</string>
+
+    <string name="notif_channel_clean">Progres Pembersihan Bertahap</string>
+    <string name="notif_channel_reminder">Pengingat Ruang Penyimpanan</string>
+    <string name="notif_cleaning_title">Membersihkan cache secara bertahap</string>
+    <string name="notif_cleaning_text">%1$s (%2$d/%3$d)</string>
+    <string name="notif_reminder_title">Cache aplikasi mulai menumpuk</string>
+    <string name="notif_reminder_text">Sekitar %1$s cache aplikasi dapat dibersihkan dengan aman.</string>
+
+    <string name="overlay_batch_format">Batch %1$d/%2$d (%3$d/%4$d)</string>
+    <string name="overlay_reclaimed_format">+%1$s</string>
+    <string name="overlay_cleaning_app">Membersihkan %1$s (%2$s)</string>
+    <string name="overlay_paused">Dijeda sementara</string>
+    <string name="overlay_cooldown">Jeda adem (%1$ss)</string>
+</resources>

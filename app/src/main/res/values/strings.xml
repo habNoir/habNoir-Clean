@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">habNoir Clean</string>
+    <string name="accessibility_service_label">habNoir Clean Staged Cache Assistant</string>
+    <string name="accessibility_service_description">Helps tap only the Clear Cache button automatically across system app info pages in controlled batches. Cannot perform freehand gestures or delete app user data.</string>
+
+    <string name="nav_space">Space</string>
+    <string name="nav_apps">Apps</string>
+    <string name="nav_trash">Trash</string>
+
+    <string name="cd_open_settings">Open settings and device health</string>
+    <string name="cd_back">Back</string>
+    <string name="cd_close">Close</string>
+    <string name="cd_exclude_app">Exclude %1$s</string>
+    <string name="cd_include_app">Include %1$s in cleaning</string>
+
+    <string name="hero_subtitle_ready">Cache from %1$d apps and 30-day gallery trash are ready to clear.</string>
+    <string name="hero_subtitle_empty">No cache above %1$s found. Storage is in good shape.</string>
+    <string name="hero_subtitle_needs_usage">Grant Usage Access so the app can measure cache sizes on your phone.</string>
+
+    <string name="strata_label_private">Used %1$s</string>
+    <string name="strata_label_cache">Cache %1$s</string>
+    <string name="strata_label_trash">Trash %1$s</string>
+
+    <string name="cta_clean_staged">Clear cache in batches</string>
+    <string name="cta_cleaning_active">Clearing in progress</string>
+    <string name="cta_rescan">Scan again</string>
+    <string name="cta_grant_usage">Allow Usage Access</string>
+    <string name="safety_reassurance">Photos, chats, and account logins stay untouched.</string>
+    <string name="batch_meta_format">%1$d per pause</string>
+
+    <string name="home_list_title">Largest cache right now</string>
+    <string name="home_see_all_apps">View all apps (%1$d)</string>
+    <string name="home_empty_list">All app caches above the threshold are clean.</string>
+    <string name="home_scanning">Checking app cache sizes</string>
+
+    <string name="banner_a17_title">Android 17 Advanced Protection is active</string>
+    <string name="banner_a17_body">Accessibility automation may be restricted by system security policy. Switch to Guided Queue in Settings to keep cleaning one by one.</string>
+    <string name="banner_a17_action">Open cleaning mode settings</string>
+
+    <string name="banner_setup_title">Finish one setup step</string>
+    <string name="banner_setup_body">Enable Accessibility Assistant or use Guided Queue in Settings to clear caches automatically.</string>
+    <string name="banner_setup_action">Review setup</string>
+
+    <string name="apps_title">Apps</string>
+    <string name="apps_subtitle">Tap the lock icon to exclude an app from batch cleaning.</string>
+    <string name="apps_search_hint">Search app name</string>
+    <string name="filter_all">All</string>
+    <string name="filter_large">Over 150 MB</string>
+    <string name="filter_locked">Excluded</string>
+    <string name="apps_empty_search">No apps match this search.</string>
+    <string name="apps_clear_search">Clear search</string>
+    <string name="app_excluded_tag">Excluded</string>
+
+    <string name="trash_title">Trash folders</string>
+    <string name="trash_subtitle">Deleted photos and videos often stay hidden for 30 days before permanent removal.</string>
+    <string name="trash_layer1_title">1. 30-day gallery trash</string>
+    <string name="trash_layer1_desc">Permanently deletes MediaStore trashed items in chunks of 150 files per system prompt.</string>
+    <string name="trash_layer1_status">%1$d files (%2$s)</string>
+    <string name="trash_layer1_empty">Empty</string>
+    <string name="trash_layer1_btn">Empty permanently (%1$s)</string>
+    <string name="trash_layer1_btn_done">MediaStore trash is empty</string>
+
+    <string name="trash_layer2_title">2. Hidden OEM trash folders</string>
+    <string name="trash_layer2_tag">FOSS optional</string>
+    <string name="trash_layer2_desc">Scans only verified trash directories (%1$s) without touching active photos, camera folders, or chats.</string>
+    <string name="trash_layer2_grant_btn">Allow file access for trash folders</string>
+    <string name="trash_layer2_scan_btn">Clear %1$d hidden trash files (%2$s)</string>
+    <string name="trash_layer2_none">No extra hidden trash folders found.</string>
+
+    <string name="trash_layer3_title">3. Built-in phone gallery</string>
+    <string name="trash_layer3_desc_default">Open the Recently Deleted album in your phone gallery to clear encrypted OEM trash.</string>
+
+    <string name="settings_title">Settings and phone brand</string>
+    <string name="settings_section_mode">Staged cleaning mode</string>
+    <string name="mode_accessibility_title">Staged Accessibility</string>
+    <string name="mode_accessibility_desc">One-tap automation without PC or root</string>
+    <string name="mode_guided_title">Guided Queue</string>
+    <string name="mode_guided_desc">Opens each app storage page one by one without Accessibility permission</string>
+
+    <string name="settings_section_threshold">Minimum cache threshold and alerts</string>
+    <string name="threshold_1mb">1 MB</string>
+    <string name="threshold_5mb">5 MB</string>
+    <string name="threshold_10mb">10 MB</string>
+    <string name="settings_batch_policy_info">Current phone pacing: %1$d apps per batch, %2$s cooldown</string>
+    <string name="settings_reminder_title">Low-impact storage reminder</string>
+    <string name="settings_reminder_desc">Check silently only when battery is healthy and warn if cache grows large.</string>
+
+    <string name="settings_section_oem">Phone brand readiness</string>
+    <string name="settings_target_button">Target button label: %1$s</string>
+    <string name="check_usage_access">Usage access permission</string>
+    <string name="check_accessibility">Accessibility assistant</string>
+    <string name="check_battery_oem">Battery and Auto-Start settings</string>
+    <string name="status_ready">Ready</string>
+    <string name="status_needed">Needs setup</string>
+    <string name="action_fix">Set up</string>
+    <string name="action_open_guide">Open onboarding guide</string>
+
+    <string name="settings_privacy_title">Runs completely offline</string>
+    <string name="settings_privacy_desc">Zero internet permission, open-source GPL-3.0-or-later</string>
+    <string name="settings_total_freed">Total space freed so far: %1$s</string>
+
+    <string name="sheet_phase_guided">Tap Clear Cache in Settings, then press Back to continue</string>
+    <string name="btn_pause">Pause</string>
+    <string name="btn_resume">Resume</string>
+    <string name="btn_stop">Stop</string>
+
+    <string name="wiz_step_counter">Step %1$d of 3</string>
+    <string name="wiz_btn_back">Back</string>
+    <string name="wiz_btn_next">Next</string>
+    <string name="wiz_btn_finish">Start using app</string>
+    <string name="wiz1_title">Free up storage without anxiety</string>
+    <string name="wiz1_body">habNoir Clean works completely offline with no ads and no internet access.</string>
+    <string name="wiz1_point1">Photos, videos, WhatsApp chats, and account logins are never touched.</string>
+    <string name="wiz1_point2">Caches are cleared in small batches so your phone never freezes or overheats.</string>
+    <string name="wiz2_title">Allow cache size reading</string>
+    <string name="wiz2_body">Android requires Usage Access permission so the app can measure how much cache each app stores.</string>
+    <string name="wiz2_btn">Open Usage Access settings</string>
+    <string name="wiz2_notif_title">Allow progress notifications</string>
+    <string name="wiz2_notif_body">Shows batch cleaning status and optional storage reminders in your notification shade.</string>
+    <string name="wiz2_notif_btn">Allow notifications</string>
+    <string name="wiz3_title">Tailored for %1$s</string>
+    <string name="wiz3_restricted_title">Unlocking Restricted Settings (Android 13 to 17)</string>
+    <string name="wiz3_restricted_body">If Accessibility is locked after installing from GitHub or F-Droid: close the warning popup, open App Info, tap the three-dot menu in the top right, and select Allow restricted settings.</string>
+    <string name="wiz3_btn_app_info">Open App Info</string>
+    <string name="wiz3_btn_accessibility">Open Accessibility settings</string>
+
+    <string name="snack_whitelisted">%1$s excluded from cleaning</string>
+    <string name="snack_unwhitelisted">%1$s included in cleaning</string>
+    <string name="snack_cleaned_summary">Freed %1$s across %2$d apps.</string>
+    <string name="snack_stopped_summary">Cleaning stopped. Freed %1$s so far.</string>
+    <string name="snack_trash_cleared">%1$s of trash deleted permanently.</string>
+    <string name="snack_gallery_unavailable">Could not find a compatible gallery app on this device.</string>
+    <string name="snack_settings_fallback">Opened App Details page to adjust battery or permissions.</string>
+
+    <string name="notif_channel_clean">Staged Cleaning Progress</string>
+    <string name="notif_channel_reminder">Storage Reminders</string>
+    <string name="notif_cleaning_title">Clearing caches in batches</string>
+    <string name="notif_cleaning_text">%1$s (%2$d/%3$d)</string>
+    <string name="notif_reminder_title">Cache storage is building up</string>
+    <string name="notif_reminder_text">About %1$s of app cache can be safely cleared.</string>
+
+    <string name="overlay_batch_format">Batch %1$d/%2$d (%3$d/%4$d)</string>
+    <string name="overlay_reclaimed_format">+%1$s</string>
+    <string name="overlay_cleaning_app">Clearing %1$s (%2$s)</string>
+    <string name="overlay_paused">Paused</string>
+    <string name="overlay_cooldown">Cooling pause (%1$ss)</string>
+</resources>

@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090A0F"/>
+      <stop offset="55%" stop-color="#0E1017"/>
+      <stop offset="100%" stop-color="#131620"/>
+    </linearGradient>
+    <linearGradient id="champagneGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E2C499"/>
+      <stop offset="100%" stop-color="#F3EFEA"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Obsidian Void Canvas -->
+  <rect width="1200" height="420" rx="20" fill="url(#bgGrad)" stroke="#232634" stroke-width="1.5"/>
+
+  <!-- Architectural Hairline Grid -->
+  <g stroke="#232634" stroke-width="0.75" opacity="0.55">
+    <line x1="0" y1="84" x2="1200" y2="84"/>
+    <line x1="0" y1="336" x2="1200" y2="336"/>
+    <line x1="680" y1="0" x2="680" y2="420"/>
+  </g>
+
+  <!-- Left Column: Brand & Editorial Identity -->
+  <g transform="translate(64, 58)">
+    <!-- Monogram Badge -->
+    <rect x="0" y="0" width="56" height="56" rx="14" fill="#171A24" stroke="#3A3F54" stroke-width="1"/>
+    <text x="28" y="37" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="26" font-weight="600" fill="#F3EFEA" letter-spacing="1">hN</text>
+
+    <!-- Device & License Tag -->
+    <rect x="74" y="12" width="154" height="32" rx="16" fill="#11131A" stroke="#232634" stroke-width="1"/>
+    <circle cx="92" cy="28" r="4" fill="#E2C499"/>
+    <text x="106" y="33" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500" fill="#E2C499">GPL-3.0-or-later</text>
+
+    <rect x="240" y="12" width="166" height="32" rx="16" fill="#11131A" stroke="#232634" stroke-width="1"/>
+    <text x="323" y="33" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500" fill="#9499A6">100% Offline / 0 Ads</text>
+
+    <!-- Main Title -->
+    <text x="0" y="126" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="600" fill="#F3EFEA" letter-spacing="0.5">habNoir Clean</text>
+
+    <!-- Subtitle -->
+    <text x="0" y="168" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="18" fill="#9499A6">
+      Pembersih cache bertahap &amp; folder sampah 3 lapis untuk Android 12 sampai 17.
+    </text>
+    <text x="0" y="196" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#9499A6">
+      Dirancang untuk Xiaomi HyperOS/MIUI, OPPO/Realme ColorOS, Vivo Funtouch,
+    </text>
+    <text x="0" y="220" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#9499A6">
+      Infinix/TECNO/itel (HiOS &amp; XOS), Samsung One UI, dan Android Standar.
+    </text>
+
+    <!-- Key Metrics Row -->
+    <g transform="translate(0, 254)">
+      <rect x="0" y="0" width="170" height="44" rx="10" fill="#11131A" stroke="#232634" stroke-width="1"/>
+      <text x="16" y="27" font-family="ui-monospace, Consolas, monospace" font-size="14" font-weight="600" fill="#F3EFEA">~2.53 MB</text>
+      <text x="92" y="27" font-family="system-ui, sans-serif" font-size="13" fill="#9499A6">Signed APK</text>
+
+      <rect x="184" y="0" width="186" height="44" rx="10" fill="#11131A" stroke="#232634" stroke-width="1"/>
+      <text x="200" y="27" font-family="ui-monospace, Consolas, monospace" font-size="14" font-weight="600" fill="#E2C499">0 Internet</text>
+      <text x="282" y="27" font-family="system-ui, sans-serif" font-size="13" fill="#9499A6">Permissions</text>
+
+      <rect x="384" y="0" width="184" height="44" rx="10" fill="#11131A" stroke="#232634" stroke-width="1"/>
+      <text x="400" y="27" font-family="ui-monospace, Consolas, monospace" font-size="14" font-weight="600" fill="#F3EFEA">API 31–37</text>
+      <text x="484" y="27" font-family="system-ui, sans-serif" font-size="13" fill="#9499A6">Android 12–17</text>
+    </g>
+  </g>
+
+  <!-- Right Column: Live Floating Mini-Window + Storage Strata Card Preview -->
+  <g transform="translate(724, 44)">
+    <!-- Top Floating Mini-Window Preview -->
+    <rect x="0" y="0" width="420" height="128" rx="18" fill="#11131A" stroke="#3A3F54" stroke-width="1.2"/>
+    <circle cx="24" cy="28" r="5" fill="#E2C499"/>
+    <text x="40" y="33" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#F3EFEA">Batch 1/2 (8/14)</text>
+    <text x="396" y="33" text-anchor="end" font-family="ui-monospace, Consolas, monospace" font-size="15" font-weight="700" fill="#E2C499">+1.38 GB</text>
+    <text x="24" y="58" font-family="system-ui, sans-serif" font-size="13" fill="#9499A6">Membersihkan Instagram (342 MB)</text>
+
+    <!-- Progress track -->
+    <rect x="24" y="72" width="372" height="6" rx="3" fill="#171A24"/>
+    <rect x="24" y="72" width="248" height="6" rx="3" fill="url(#champagneGrad)"/>
+
+    <!-- Mini-Window Controls -->
+    <rect x="24" y="90" width="178" height="26" rx="13" fill="#171A24" stroke="#3A3F54" stroke-width="0.8"/>
+    <text x="113" y="107" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#F3EFEA">Jeda</text>
+    <rect x="218" y="90" width="178" height="26" rx="13" fill="#171A24" stroke="#5A3535" stroke-width="0.8"/>
+    <text x="307" y="107" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#D97B73">Hentikan</text>
+
+    <!-- Storage Strata Card Preview -->
+    <rect x="0" y="148" width="420" height="184" rx="18" fill="#11131A" stroke="#232634" stroke-width="1.2"/>
+    <text x="24" y="194" font-family="ui-monospace, Consolas, monospace" font-size="34" font-weight="700" fill="#F3EFEA">1.94 GB</text>
+    <text x="24" y="218" font-family="system-ui, sans-serif" font-size="13" fill="#9499A6">Cache dari 14 aplikasi dan sampah galeri 30 hari siap dibersihkan.</text>
+
+    <!-- 3-Segment Storage Strata Bar -->
+    <rect x="24" y="236" width="372" height="12" rx="4" fill="#171A24"/>
+    <rect x="24" y="236" width="212" height="12" rx="3" fill="#3E4459"/>
+    <rect x="239" y="236" width="92" height="12" rx="3" fill="#F3EFEA"/>
+    <rect x="334" y="236" width="42" height="12" rx="3" fill="#E2C499"/>
+
+    <!-- Legend -->
+    <rect x="24" y="262" width="8" height="8" rx="2" fill="#3E4459"/>
+    <text x="38" y="270" font-family="ui-monospace, Consolas, monospace" font-size="11" fill="#9499A6">Pribadi 118 GB</text>
+    <rect x="164" y="262" width="8" height="8" rx="2" fill="#F3EFEA"/>
+    <text x="178" y="270" font-family="ui-monospace, Consolas, monospace" font-size="11" fill="#9499A6">Cache 1.48 GB</text>
+    <rect x="298" y="262" width="8" height="8" rx="2" fill="#E2C499"/>
+    <text x="312" y="270" font-family="ui-monospace, Consolas, monospace" font-size="11" fill="#9499A6">Sampah 460 MB</text>
+
+    <!-- Primary Pill Button -->
+    <rect x="24" y="286" width="372" height="34" rx="17" fill="#F3EFEA"/>
+    <text x="210" y="308" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#090A0F">Bersihkan cache bertahap</text>
+  </g>
+</svg>
