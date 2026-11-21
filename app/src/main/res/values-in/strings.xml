@@ -115,15 +115,17 @@
     <string name="wiz1_point2">Cache dibersihkan bertahap per batch agar ponsel tidak freeze atau panas.</string>
     <string name="wiz2_title">Izin membaca ukuran cache</string>
     <string name="wiz2_body">Android mewajibkan izin Akses Penggunaan agar aplikasi dapat menghitung total cache tiap aplikasi.</string>
-    <string name="wiz2_btn">Buka setelan Akses Penggunaan</string>
+    <string name="wiz2_restricted_hint">Jika Akses Penggunaan atau Aksesibilitas terkunci oleh Setelan Terbatas: ketuk dulu izinnya 1x sampai muncul peringatan, lalu ketuk tombol 1 (Buka Info Aplikasi), ketuk titik tiga di kanan atas, dan pilih Izinkan setelan terbatas.</string>
+    <string name="wiz2_btn_unlock_restricted">1. Buka Info Aplikasi (Izinkan setelan terbatas)</string>
+    <string name="wiz2_btn">2. Buka setelan Akses Penggunaan</string>
     <string name="wiz2_notif_title">Izin notifikasi progres</string>
     <string name="wiz2_notif_body">Menampilkan status pembersihan bertahap dan pengingat ruang di panel notifikasi.</string>
     <string name="wiz2_notif_btn">Izinkan notifikasi</string>
     <string name="wiz3_title">Penyesuaian %1$s</string>
     <string name="wiz3_restricted_title">Membuka kunci Setelan Terbatas (Android 13 sampai 17)</string>
-    <string name="wiz3_restricted_body">Jika tombol Aksesibilitas terkunci saat memasang APK dari GitHub atau F-Droid: tutup popup, buka Info Aplikasi, ketuk ikon titik tiga di kanan atas, lalu pilih Izinkan setelan terbatas.</string>
-    <string name="wiz3_btn_app_info">Buka Info Aplikasi</string>
-    <string name="wiz3_btn_accessibility">Buka setelan Aksesibilitas</string>
+    <string name="wiz3_restricted_body">Jika Akses Penggunaan atau Aksesibilitas terkunci saat memasang APK dari GitHub atau browser: ketuk dulu opsi yang terkunci 1x, buka Info Aplikasi, ketuk ikon titik tiga di kanan atas, lalu pilih Izinkan setelan terbatas. Cukup dibuka 1x untuk membuka kedua izin sekaligus.</string>
+    <string name="wiz3_btn_app_info">1. Buka Info Aplikasi</string>
+    <string name="wiz3_btn_accessibility">2. Buka Aksesibilitas</string>
 
     <string name="snack_whitelisted">%1$s dikecualikan dari pembersihan</string>
     <string name="snack_unwhitelisted">%1$s dimasukkan ke daftar pembersihan</string>

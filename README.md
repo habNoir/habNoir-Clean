@@ -74,30 +74,36 @@ Mendukung deteksi otomatis merek perangkat, versi antarmuka, pencocokan label mu
 
 ---
 
-## Varian Distribusi & Verifikasi Rilis (`v1.0.0`)
+## Varian Distribusi & Verifikasi Rilis (`v1.0.1`)
 
-Proyek ini menyediakan dua *product flavor* yang telah melalui optimasi penuh **R8 Full Mode** dan ditandatangani dengan skema **APK Signature Scheme v3 (RSA 4096-bit)**:
+Proyek ini menyediakan dua *product flavor* yang telah melalui optimasi penuh **R8 Full Mode**, menghapus izin berisiko tinggi `QUERY_ALL_PACKAGES` (diganti filter `<queries>` standar Android 11+ agar ramah terhadap heuristik Google Play Protect), dan ditandatangani dengan skema **APK Signature Scheme v3 (RSA 4096-bit)**:
 
 | Berkas APK | Ukuran | SHA-256 | Keterangan |
 | :--- | :---: | :--- | :--- |
-| `habNoir-Clean-v1.0.0-foss-release.apk` | `2.56 MB` (`2,683,769 B`) | `b0a0cd1f694ecb89cbd14b37554cf143e0086850c6bc8551a163e55f9b4421a8` | Edisi lengkap (GitHub / F-Droid / IzzyOnDroid) dengan dukungan Lapis 2 folder sampah tersembunyi & popup 1-tap optimasi baterai |
-| `habNoir-Clean-v1.0.0-store-release.apk` | `2.56 MB` (`2,683,769 B`) | `7922c00aaf16835a54889916a1cc71c2929a97e7dad9b723c51ac162b3c2f039` | Edisi Play Store (tanpa izin `MANAGE_EXTERNAL_STORAGE` & `REQUEST_IGNORE_BATTERY_OPTIMIZATIONS`) |
+| `habNoir-Clean-v1.0.1-foss-release.apk` | `2.56 MB` (`2,685,606 B`) | `1c77cd6fd719bfd30d005d0fc708f364de19c15678e53ca05a9110f0a4e68e44` | Edisi lengkap (GitHub / F-Droid / IzzyOnDroid) dengan dukungan Lapis 2 folder sampah tersembunyi & popup 1-tap optimasi baterai |
+| `habNoir-Clean-v1.0.1-store-release.apk` | `2.56 MB` (`2,685,529 B`) | `44265aef3d25143a053d170d5e3d293d73c8db439b60ecc3f4158f0e08053b55` | Edisi ringan tanpa izin `MANAGE_EXTERNAL_STORAGE` & `REQUEST_IGNORE_BATTERY_OPTIMIZATIONS` (paling ramah Play Protect) |
 
 **Sertifikat Penandatangan (`apksigner verify --print-certs`):**
 - **DN:** `CN=habNoir, OU=Mobile, O=habNoir, L=Jakarta, ST=DKI Jakarta, C=ID`
 - **Certificate SHA-256:** `45ab5668d831ab317be202a3a2acb6692a72a9da66e9ab4d889de7ae95bae68b`
 
-**Verifikasi Nol Izin Internet (`aapt2 dump permissions`):**
+**Verifikasi Nol Izin Internet & Tanpa `QUERY_ALL_PACKAGES` (`aapt2 dump permissions`):**
 ```text
 package: xyz.habnoir.clean
 uses-permission: name='android.permission.MANAGE_EXTERNAL_STORAGE'
 uses-permission: name='android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS'
 uses-permission: name='android.permission.PACKAGE_USAGE_STATS'
-uses-permission: name='android.permission.QUERY_ALL_PACKAGES'
 uses-permission: name='android.permission.FOREGROUND_SERVICE'
 uses-permission: name='android.permission.FOREGROUND_SERVICE_SPECIAL_USE'
 uses-permission: name='android.permission.POST_NOTIFICATIONS'
 ```
+
+### Panduan Membuka Kunci Setelan Terbatas (Android 13 – 17)
+Ketika memasang APK langsung dari browser atau pengelola berkas (*sideload*), sistem keamanan Android 13–17 mengunci **Akses Penggunaan** dan **Aksesibilitas** di balik **Setelan Terbatas** (*Restricted Settings*). Cara membukanya cukup **1 kali** untuk kedua izin sekaligus:
+1. Ketuk opsi **Akses Penggunaan** atau **Aksesibilitas** yang terkunci sebanyak 1 kali hingga muncul dialog peringatan *Setelan Terbatas*, lalu ketuk **Oke**.
+2. Di dalam Wizard Langkah 2/3 atau menu Setelan aplikasi, ketuk tombol **1. Buka Info Aplikasi (Izinkan setelan terbatas)**.
+3. Ketuk ikon **titik tiga (`⋮`)** di pojok kanan atas halaman Info Aplikasi, pilih **Izinkan setelan terbatas** (*Allow restricted settings*), lalu verifikasi sidik jari atau PIN ponsel Anda.
+4. Setelah dibuka 1 kali, baik **Akses Penggunaan** maupun **Asisten Aksesibilitas** dapat langsung diaktifkan.
 
 ---
 

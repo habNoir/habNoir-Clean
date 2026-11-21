@@ -178,7 +178,29 @@ fun OnboardingScreen(
                             style = MaterialTheme.typography.bodyMedium,
                             color = HabNoirColors.MutedSlate
                         )
-                        Spacer(modifier = Modifier.height(16.dp))
+                        if (!state.permissionHealth.hasUsageAccess) {
+                            Spacer(modifier = Modifier.height(10.dp))
+                            Text(
+                                text = stringResource(R.string.wiz2_restricted_hint),
+                                style = MaterialTheme.typography.bodySmall,
+                                color = HabNoirColors.WarmChampagne
+                            )
+                            Spacer(modifier = Modifier.height(12.dp))
+                            OutlinedButton(
+                                onClick = { onEvent(MainEvent.OpenOwnAppInfo) },
+                                modifier = Modifier
+                                    .fillMaxWidth()
+                                    .height(48.dp),
+                                shape = RoundedCornerShape(999.dp),
+                                border = BorderStroke(1.dp, HabNoirColors.WarmChampagne)
+                            ) {
+                                Text(
+                                    text = stringResource(R.string.wiz2_btn_unlock_restricted),
+                                    color = HabNoirColors.WarmChampagne
+                                )
+                            }
+                        }
+                        Spacer(modifier = Modifier.height(10.dp))
                         OutlinedButton(
                             onClick = { onEvent(MainEvent.OpenUsageAccessSettings) },
                             modifier = Modifier

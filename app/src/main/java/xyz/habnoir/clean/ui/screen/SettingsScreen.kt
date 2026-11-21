@@ -235,6 +235,27 @@ fun SettingsScreen(
                     onFix = { onEvent(MainEvent.OpenBatteryOemSettings) }
                 )
 
+                if (!state.permissionHealth.hasUsageAccess || !state.permissionHealth.hasAccessibilityEnabled) {
+                    Text(
+                        text = stringResource(R.string.wiz2_restricted_hint),
+                        style = MaterialTheme.typography.bodySmall,
+                        color = HabNoirColors.WarmChampagne
+                    )
+                    OutlinedButton(
+                        onClick = { onEvent(MainEvent.OpenOwnAppInfo) },
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .height(48.dp),
+                        shape = RoundedCornerShape(999.dp),
+                        border = BorderStroke(1.dp, HabNoirColors.WarmChampagne)
+                    ) {
+                        Text(
+                            text = stringResource(R.string.wiz2_btn_unlock_restricted),
+                            color = HabNoirColors.WarmChampagne
+                        )
+                    }
+                }
+
                 OutlinedButton(
                     onClick = { onEvent(MainEvent.ReopenOnboarding) },
                     modifier = Modifier.height(48.dp),

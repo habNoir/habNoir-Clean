@@ -115,15 +115,17 @@
     <string name="wiz1_point2">Caches are cleared in small batches so your phone never freezes or overheats.</string>
     <string name="wiz2_title">Allow cache size reading</string>
     <string name="wiz2_body">Android requires Usage Access permission so the app can measure how much cache each app stores.</string>
-    <string name="wiz2_btn">Open Usage Access settings</string>
+    <string name="wiz2_restricted_hint">If Usage Access or Accessibility says Controlled by restricted settings: tap it once to trigger the notice, then tap step 1 below (App Info), tap the 3-dot menu in the top right, and tap Allow restricted settings.</string>
+    <string name="wiz2_btn_unlock_restricted">1. Open App Info (Unlock restricted settings)</string>
+    <string name="wiz2_btn">2. Open Usage Access settings</string>
     <string name="wiz2_notif_title">Allow progress notifications</string>
     <string name="wiz2_notif_body">Shows batch cleaning status and optional storage reminders in your notification shade.</string>
     <string name="wiz2_notif_btn">Allow notifications</string>
     <string name="wiz3_title">Tailored for %1$s</string>
     <string name="wiz3_restricted_title">Unlocking Restricted Settings (Android 13 to 17)</string>
-    <string name="wiz3_restricted_body">If Accessibility is locked after installing from GitHub or F-Droid: close the warning popup, open App Info, tap the three-dot menu in the top right, and select Allow restricted settings.</string>
-    <string name="wiz3_btn_app_info">Open App Info</string>
-    <string name="wiz3_btn_accessibility">Open Accessibility settings</string>
+    <string name="wiz3_restricted_body">If Usage Access or Accessibility is locked after installing from GitHub or browser: tap the locked toggle once, open App Info, tap the three-dot menu in the top right, and select Allow restricted settings. Unlocking once unlocks both permissions.</string>
+    <string name="wiz3_btn_app_info">1. Open App Info</string>
+    <string name="wiz3_btn_accessibility">2. Open Accessibility</string>
 
     <string name="snack_whitelisted">%1$s excluded from cleaning</string>
     <string name="snack_unwhitelisted">%1$s included in cleaning</string>
